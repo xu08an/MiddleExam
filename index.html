@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的履歷網站</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="fade-in">
+    <div class="header-text">
+      <h1>曾諭瑄</h1>
+      <p>保持好奇，持續成長。</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about" class="nav-link">基本資訊</a>
+    <a href="#skills" class="nav-link">專業技能</a>
+    <a href="#experience" class="nav-link">個人經歷</a>
+    <a href="#contact" class="nav-link">聯絡資訊</a>
+  </nav>
+
+  <main>
+    <section id="about" class="reveal">
+      <h2>基本資訊</h2>
+      <div class="about-grid">
+        <img class="avatar" src="image/me.jpg" alt="大頭照">
+        <div class="about-text">
+          <h3>關於我</h3>
+          <p>我是中原大學資訊管理學系的學生，來自台中，喜歡探索新事物，也樂於接受挑戰。在課業之外，我熱愛運動與旅遊，也從團隊合作與服務工作中累積了責任感與溝通能力。</p>
+          <p class="quote">Stay curious, keep growing.</p>
+        </div>
+        <ul class="about-info">
+          <li><span>學校：</span>中原大學</li>
+          <li><span>科系：</span>資訊管理學系</li>
+          <li><span>興趣：</span>籃球、旅遊、料理</li>
+          <li><span>特質：</span>樂觀、負責、愛挑戰</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="reveal">
+      <h2>專業技能</h2>
+      <ul class="skill-list">
+        <li>
+          <span class="skill-name">HTML / CSS 網頁設計</span>
+          <div class="bar"><div class="fill" style="--target: 65%"></div></div>
+          <!-- 加上 data-target 讓 JS 抓取真實數值做動畫 -->
+          <span class="percent" data-target="65">0%</span>
+        </li>
+        <li>
+          <span class="skill-name">Python/Java程式設計</span>
+          <div class="bar"><div class="fill" style="--target: 60%"></div></div>
+          <span class="percent" data-target="60">0%</span>
+        </li>
+        <li>
+          <span class="skill-name">各項運動知識</span>
+          <div class="bar"><div class="fill" style="--target: 75%"></div></div>
+          <span class="percent" data-target="75">0%</span>
+        </li>
+        <li>
+          <span class="skill-name">資料分析</span>
+          <div class="bar"><div class="fill" style="--target: 70%"></div></div>
+          <span class="percent" data-target="70">0%</span>
+        </li>
+        <li>
+          <span class="skill-name">英文溝通程度</span>
+          <div class="bar"><div class="fill" style="--target: 55%"></div></div>
+          <span class="percent" data-target="55">0%</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience" class="reveal">
+      <h2>個人經歷</h2>
+      <article class="exp-card">
+        <img src="image/team.jpg" alt="大學籃球團隊照片">
+        <div class="exp-body">
+          <h3>籃球校隊（2023– 2026）</h3>
+          <p>從高中開始參與學校球隊，學習許多運動知識也結交許多一起努力的朋友們。這期間也擔任過球隊隊長，學習如何管理團隊和營造好的團隊氛圍。</p>
+        </div>
+      </article>
+
+      <article class="exp-card">
+        <img src="image/camp.jpg" alt="營隊照片">
+        <div class="exp-body">
+          <h3>營隊志工服務（2026）</h3>
+          <p>在營隊擔任隊輔志工，營隊期間無時無刻陪伴著他們，並帶領他們探索各種事物。也學習如何與小朋友相處，並適時引導他們。</p>
+        </div>
+      </article>
+
+      <article class="exp-card">
+        <img src="image/hotpot.jpg" alt="餐飲服務工作照片">
+        <div class="exp-body">
+          <h3>餐飲服務工讀生（2025 – 2026）</h3>
+          <p>在火鍋店擔任外場工讀生，負責點餐、出餐與現場服務。需要在極短的時間內解決各種客人的問題，培養了應對突發狀況與團隊分工的能力，也學會如何在職場上與他人相處。</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2>聯絡資訊</h2>
+      <ul class="contact-list">
+        <li><a href="https://www.facebook.com/share/1MWhX65WyD/?mibextid=wwXIfr" aria-label="Facebook" class="icon">f</a></li>
+        <li><a href="https://www.instagram.com/xuan_8.10?srtk=MWtyeGNqZG95dzk2cQ%3D%3D&utm_source=qr" aria-label="Instagram" class="icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a></li>
+        <li><a href="https://www.threads.com/@xuan_8.10?igshid=NTc4MTIwNjQ2YQ==" aria-label="Threads" class="icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"/></svg>
+        </a></li>
+        <li class="mail">
+          <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.5 7v.1L12 13l7.5-5.9V7L12 12.2z"/></svg>
+          <a href="mailto:rubyl960810@gmail.com">rubyl960810@gmail.com</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 曾諭瑄</p>
+  </footer>
+
+  <!-- 互動動畫與滾動偵測 -->
+  <script>
+    // 1. 區塊滾動浮現與技能數字同步計數
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+
+          // 如果進到技能區，啟動數字動態累加動畫
+          if (entry.target.id === 'skills') {
+            document.querySelectorAll('.percent').forEach((el) => {
+              const targetVal = parseInt(el.getAttribute('data-target'), 10);
+              let currentVal = 0;
+              const duration = 2500; // 
+              const startTime = performance.now();
+
+              function updateNumber(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                // 使用 easeOutCubic 讓數字一開始快、後面慢慢停下
+                const easeProgress = 1 - Math.pow(1 - progress, 3);
+                currentVal = Math.round(easeProgress * targetVal);
+                el.textContent = currentVal + '%';
+
+                if (progress < 1) {
+                  requestAnimationFrame(updateNumber);
+                }
+              }
+              requestAnimationFrame(updateNumber);
+            });
+          }
+
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+    // 2. 導覽列當前區塊高亮 (ScrollSpy)
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let currentSectionId = '';
+      const scrollPos = window.scrollY + 100;
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+          currentSectionId = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach((link) => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + currentSectionId) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
